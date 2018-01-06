@@ -1,8 +1,8 @@
 ---
-- hosts:appserver
+- hosts: appserver
   become: yes
   tasks:
-   - name:update package
+   - name: update package
      apt:
        update_cache: yes
    - name: install tomcat
@@ -13,4 +13,3 @@
      service:
        name: tomcat7
        state: stopped
-       

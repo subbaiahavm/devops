@@ -9,7 +9,7 @@
      apt:
        name: tomcat7
        state: present
-   - name: stop tomcat service
+   - name: start tomcat service
      service:
        name: tomcat7
-       state: stopped
+       state: start

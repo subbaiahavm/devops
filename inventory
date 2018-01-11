@@ -1,13 +1,13 @@
 [ip]
 localhost
-172.31.23.246
-172.31.23.90
-172.31.34.180
+172.31.19.25
+
+[ubuntu]
+172.31.19.25 set_to_be_set=absent
 
 [webserver]
-172.31.23.246 pack_name=apache2
-172.31.34.180 pack_name=httpd
+172.31.19.25 pack_name=apache2
+172.31.27.181 pack_name=httpd
 
-[appserver]
-172.31.23.90
 
+[webserver:vars]
